@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/sdq-codes/claimclam/internal/core/errors"
-	"github.com/sdq-codes/claimclam/internal/core/logging"
+	"github.com/sdq-codes/claimc/gateway/internal/core/errors"
+	"github.com/sdq-codes/claimc/gateway/internal/core/logging"
 )
 
 const (

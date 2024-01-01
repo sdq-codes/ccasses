@@ -3,9 +3,9 @@ package config
 import (
 	"os"
 
-	"github.com/sdq-codes/claimclam/internal/core/drivers/psql"
-	"github.com/sdq-codes/claimclam/internal/core/errors"
-	"github.com/sdq-codes/claimclam/internal/core/listeners/http"
+	"github.com/sdq-codes/claimc/gateway/internal/core/drivers/psql"
+	"github.com/sdq-codes/claimc/gateway/internal/core/errors"
+	"github.com/sdq-codes/claimc/gateway/internal/core/listeners/http"
 )
 
 const (

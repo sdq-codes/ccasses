@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/sdq-codes/claimclam/internal/controllers"
-	"github.com/sdq-codes/claimclam/internal/events"
-	"github.com/sdq-codes/claimclam/internal/repositories"
-	"github.com/sdq-codes/claimclam/internal/services"
-	httptransport "github.com/sdq-codes/claimclam/internal/transport/http"
+	"github.com/sdq-codes/claimc/gateway/internal/controllers"
+	"github.com/sdq-codes/claimc/gateway/internal/events"
+	"github.com/sdq-codes/claimc/gateway/internal/repositories"
+	"github.com/sdq-codes/claimc/gateway/internal/services"
+	httptransport "github.com/sdq-codes/claimc/gateway/internal/transport/http"
 	"gorm.io/gorm"
 )
 

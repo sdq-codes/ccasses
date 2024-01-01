@@ -6,7 +6,7 @@ import (
 	"gorm.io/gorm"
 
 	_ "github.com/lib/pq" // imports the postgres driver
-	"github.com/sdq-codes/claimclam/internal/core/errors"
+	"github.com/sdq-codes/claimc/gateway/internal/core/errors"
 )
 
 const (

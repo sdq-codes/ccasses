@@ -3,9 +3,9 @@ package psql
 import (
 	"context"
 	_ "github.com/golang-migrate/migrate/v4/source/file" // import file driver for migrate
-	"github.com/sdq-codes/claimclam/internal/core/errors"
-	"github.com/sdq-codes/claimclam/internal/core/logging"
-	"github.com/sdq-codes/claimclam/internal/models"
+	"github.com/sdq-codes/claimc/gateway/internal/core/errors"
+	"github.com/sdq-codes/claimc/gateway/internal/core/logging"
+	"github.com/sdq-codes/claimc/gateway/internal/models"
 )
 
 const (

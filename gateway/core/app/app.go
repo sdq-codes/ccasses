@@ -8,8 +8,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/sdq-codes/claimclam/internal/core/logging"
-	"github.com/sdq-codes/claimclam/internal/core/tracing"
+	"github.com/sdq-codes/claimc/gateway/internal/core/logging"
+	"github.com/sdq-codes/claimc/gateway/internal/core/tracing"
 	"go.uber.org/zap"
 )
 

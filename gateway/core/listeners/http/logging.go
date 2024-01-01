@@ -3,7 +3,7 @@ package http
 import (
 	"net/http"
 
-	"github.com/sdq-codes/claimclam/internal/core/logging"
+	"github.com/sdq-codes/claimc/gateway/internal/core/logging"
 	"go.uber.org/zap"
 )
 

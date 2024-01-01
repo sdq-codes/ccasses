@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/sdq-codes/claimclam/internal/core/logging"
+	"github.com/sdq-codes/claimc/gateway/internal/core/logging"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/exporters/stdout/stdouttrace"
 	"go.opentelemetry.io/otel/sdk/resource"
