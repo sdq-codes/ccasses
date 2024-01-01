@@ -6,7 +6,6 @@ import (
 	"github.com/sdq-codes/claimclam/internal/core/drivers/psql"
 	"github.com/sdq-codes/claimclam/internal/core/errors"
 	"github.com/sdq-codes/claimclam/internal/core/listeners/http"
-	"gopkg.in/yaml.v2"
 )
 
 const (
