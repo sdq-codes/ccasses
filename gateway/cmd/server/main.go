@@ -2,11 +2,11 @@ package main
 
 import (
 	"context"
-	"github.com/sdq-codes/claimc/gateway/internal/config"
-	"github.com/sdq-codes/claimc/gateway/internal/core/app"
-	"github.com/sdq-codes/claimc/gateway/internal/core/drivers/psql"
-	"github.com/sdq-codes/claimc/gateway/internal/core/listeners/http"
-	"github.com/sdq-codes/claimc/gateway/internal/core/logging"
+	"github.com/sdq-codes/ccasses/gateway/core/app"
+	"github.com/sdq-codes/ccasses/gateway/core/config"
+	"github.com/sdq-codes/ccasses/gateway/core/drivers/psql"
+	"github.com/sdq-codes/ccasses/gateway/core/listeners/http"
+	"github.com/sdq-codes/ccasses/gateway/core/logging"
 	"go.uber.org/zap"
 )
 
@@ -40,7 +40,7 @@ func appStart(ctx context.Context, a *app.App) ([]app.Listener, error) {
 
 	// Instantiate and connect all our classes
 
-	httpServer := AllImports(db.GetDB())
+	httpServer := http.Server{}
 
 	// Create a HTTP server
 	h, err := http.New(httpServer, cfg.HTTP)

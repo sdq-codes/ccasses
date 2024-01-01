@@ -3,7 +3,7 @@ package http
 import (
 	"net/http"
 
-	"github.com/sdq-codes/claimc/gateway/internal/core/logging"
+	"github.com/sdq-codes/ccasses/gateway/core/logging"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 	"go.opentelemetry.io/otel/trace"
 	"go.uber.org/zap"

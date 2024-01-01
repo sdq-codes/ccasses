@@ -3,7 +3,7 @@ package responses
 import (
 	"encoding/json"
 	"errors"
-	errors2 "github.com/sdq-codes/claimc/gateway/cmd/errors"
+	errors2 "github.com/sdq-codes/ccasses/gateway/cmd/errors"
 	"net/http"
 	"strings"
 )

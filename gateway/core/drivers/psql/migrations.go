@@ -3,9 +3,8 @@ package psql
 import (
 	"context"
 	_ "github.com/golang-migrate/migrate/v4/source/file" // import file driver for migrate
-	"github.com/sdq-codes/claimc/gateway/internal/core/errors"
-	"github.com/sdq-codes/claimc/gateway/internal/core/logging"
-	"github.com/sdq-codes/claimc/gateway/internal/models"
+	"github.com/sdq-codes/ccasses/gateway/core/errors"
+	"github.com/sdq-codes/ccasses/gateway/core/logging"
 )
 
 const (
@@ -19,7 +18,7 @@ const (
 
 // MigratePostgres migrates the database to the latest version.
 func (d *Driver) MigratePostgres(ctx context.Context, migrationsPath string) error {
-	err := d.GetDB().AutoMigrate(models.User{}, models.Otp{})
+	err := d.GetDB().AutoMigrate()
 	if err != nil {
 		logging.From(ctx).Info("Migration failed")
 		return err
